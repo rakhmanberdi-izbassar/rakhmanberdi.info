@@ -1,77 +1,43 @@
 {
   "hero": {
     "imgUrl": "/images/home-banner.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
-    "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
+    "name": "Rakhmanberdi Izbassar",
+    "heading": "Hi! I’m Rakhmanberdi",
+    "typingText": ["I'm a Full-Stack Developer", 1500, "I'm a UI/UX Designer", 1500],
+    "description": "I specialize in crafting intuitive digital experiences. With strong expertise in Laravel, React, and Django, I build scalable and secure web applications tailored to client needs.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
   "socialBtns": [
     {
-      "icon": "fa-brands:facebook-f",
-      "iconBgClass": "facebook",
-      "href": "/"
-    },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
-    {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "/"
+      "href": "https://linkedin.com/in/rakhmanberdi"
+    },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/rakhmanberdi"
     }
   ],
-  "brands": [
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    }
-  ],
+  "brands": [],
   "about": {
     "imgSrc": "/images/about-banner.png",
-    "miniTitle": "About Us",
-    "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
-    "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "miniTitle": "About Me",
+    "title": "I AM AVAILABLE FOR <span>FULL-STACK DEVELOPMENT</span> PROJECTS",
+    "description": "I am a graduate in Digital Management and Design, with practical experience in web and mobile app development. My focus areas include Laravel, React, and Django, complemented by a strong interest in cybersecurity and IoT solutions.",
     "funfacts": [
       {
-        "title": "Google Review",
-        "number": 280
+        "title": "Projects Delivered",
+        "number": 25
       },
       {
         "title": "Years Experience",
-        "number": 15
+        "number": 3
       },
       {
-        "title": "Awward Winning",
-        "number": 49
+        "title": "Clients Satisfied",
+        "number": 20
       }
     ],
     "btnText": "Get in touch",
@@ -80,91 +46,35 @@
   "projects": {
     "sectionHeading": {
       "miniTitle": "My Work",
-      "title": "RECENT PROJECT"
+      "title": "RECENT PROJECTS"
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/popup-project-1.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/qaztour-thumbnail.jpg",
+        "title": "Qaztour Web App",
+        "subTitle": "Tour Booking & Tourism Platform",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Tourism and Hotel Booking Web Application",
+          "description": "Qaztour is a web-based platform that showcases Kazakhstan's tourist destinations and allows users to book hotels and tours. It also includes features for guides, travel packages, and multi-language support for international visitors.",
+          "type": "Web Application",
+          "langages": "Django, PostgreSQL, HTML, CSS, JS",
+          "platform": "Web",
+          "country": "Kazakhstan",
+          "url": "https://qaztour.vercel.app"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-2.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/bilimapp-thumbnail.jpg",
+        "title": "Bilim.app Platform",
+        "subTitle": "National Education Platform",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-3.jpg",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-4.jpg",
-        "title": "Mobile App Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-5.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-6.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "FAQ Content Management for Bilim.app",
+          "description": "I contributed to enriching the FAQ section of Bilim.app — a national-level educational platform. This involved organizing and presenting information in a user-friendly and accessible manner.",
+          "type": "Content Management",
+          "langages": "React, Firebase",
+          "platform": "Web",
+          "country": "Kazakhstan",
+          "url": "https://bilim-app.kz"
         }
       }
     ]
@@ -172,106 +82,70 @@
   "service": {
     "sectionHeading": {
       "miniTitle": "SERVICES",
-      "title": "Design <span>services</span> I am providing"
+      "title": "Development & <span>Design</span> Services I Provide"
     },
     "allService": [
       {
         "imgUrl": "/images/service-01.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:brush-fill",
+        "title": "Full-Stack Development",
+        "subTitle": "Building scalable web applications using Django, Laravel, and React.",
+        "icon": "bi:code-slash",
         "ratings": 5
       },
       {
         "imgUrl": "/images/service-02.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:code-square",
-        "ratings": 4.5
+        "title": "UI/UX Design",
+        "subTitle": "Crafting intuitive and user-centered interface designs.",
+        "icon": "bi:brush",
+        "ratings": 4.8
       },
       {
         "imgUrl": "/images/service-03.jpg",
-        "title": "SEO Marketing",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:speedometer2",
-        "ratings": 5
-      },
-      {
-        "imgUrl": "/images/service-04.jpg",
-        "title": "Graphic Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:palette",
-        "ratings": 5
+        "title": "Cybersecurity Advisory",
+        "subTitle": "Basic security audits and best practice implementation.",
+        "icon": "bi:shield-lock",
+        "ratings": 4.7
       }
     ]
   },
   "experience": {
     "sectionHeading": {
       "miniTitle": "Experience",
-      "title": "My Work <span>Experience</span>"
+      "title": "Professional <span>Experience</span>"
     },
     "allExperience": [
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
+        "designation": "Frontend Developer",
+        "company": "Bilim.app | Remote",
+        "duration": "OCT 2024 - PRESENT",
+        "jobType": "Part-time",
         "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
-      },
-      {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
-      },
-      {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyDescription": "Bilim.app is a national educational platform of Kazakhstan aimed at improving access to digital learning tools across the country. My role involved managing and enhancing the FAQ section."
       }
     ]
   },
   "testimonial": {
     "sectionHeading": {
       "miniTitle": "Testimonial",
-      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+      "title": "Clients Who <span>Trust</span> Me"
     },
-    "allTestimonial": [
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-1.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-2.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-3.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      }
-    ]
+    "allTestimonial": []
   },
   "contact": {
     "sectionHeading": {
       "title": "Let’s Discuss Your Project",
-      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+      "subTitle": "Always open to new collaborations in tech, feel free to reach out."
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "sample@domain.com" },
-      { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }
+      {
+        "title": "Write an email",
+        "email": "rakhmanberdi2003@gmail.com"
+      },
+      {
+        "title": "Call me",
+        "tel": "+7777 157 0165"
+      }
     ]
   }
 }
