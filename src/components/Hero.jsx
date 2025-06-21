@@ -1,12 +1,40 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import { Link as ScrollLink } from 'react-scroll';
-import SocialBtns from './SocialBtns';
+import { Icon } from "@iconify/react";
+import { useState, useEffect } from "react";
+import { TypeAnimation } from "react-type-animation";
+import { Link as ScrollLink } from "react-scroll";
+import SocialBtns from "./SocialBtns";
 
-export default function Hero({ data, socialData }) {
-  const { imgUrl, name, heading, typingText, description, btnText, btnUrl } =
-    data;
+export default function Hero() {
+  const [heroData, setHeroData] = useState(null);
+  const [socialData, setSocialData] = useState([]);
+
+  useEffect(() => {
+    fetch("https://myportfolio-admin-lq7m.onrender.com/api/hero/")
+      .then((res) => res.json())
+      .then((data) => setHeroData(data))
+      .catch((err) => console.error("Error fetching about data:", err));
+  }, []);
+
+  useEffect(() => {
+    fetch("https://myportfolio-admin-lq7m.onrender.com/api/api/social-links/")
+      .then((res) => res.json())
+      .then((data) => setSocialData(data))
+      .catch((err) => console.error("Error fetching social links:", err));
+  }, []);
+
+  // Бұл if шарт енді рендерге әсер етеді, hook-тарға емес.
+  if (!heroData) return null;
+
+  const { name, title, typingText, description, btnText, btnUrl, imgUrl } =
+    heroData || {};
+
+  const myname = name;
+  const head = title;
+  const bio = description;
+  const typing = typingText;
+  const btnT = btnText;
+  const btnU = btnUrl;
+
   return (
     <section className="home-section" id="home" data-scroll-index={0}>
       <div className="container">
@@ -14,64 +42,81 @@ export default function Hero({ data, socialData }) {
           <div className="col-lg-6">
             <div className="hs-text-box">
               <h6 data-aos="fade-up" data-aos-duration="1200">
-                <span>{name}</span>
+                <span>{myname}</span>
               </h6>
-
               <h1
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                {heading}
+                {head}
               </h1>
               <h2
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="200"
+                style={{ position: "relative", minHeight: "3rem" }} // тұрақты биіктік
               >
-                <TypeAnimation
-                  sequence={typingText}
-                  speed={0}
-                  repeat={Infinity}
-                />
+                <span
+                  style={{
+                    visibility: "hidden",
+                    position: "absolute",
+                    height: 0,
+                    overflow: "hidden",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  I'm a Full-Stack Developer
+                </span>
+                <TypeAnimation sequence={typing} speed={0} repeat={Infinity} />
               </h2>
+
               <p
                 className="text"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                {description}
+                {bio}
               </p>
               <div
-                className="btn-bar d-flex align-items-sm-center flex-column flex-sm-row"
+                className="btn-bar d-flex align-items-center gap-3 flex-wrap"
+                style={{ marginBottom: "50px" }}
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
                 <ScrollLink
-                  to={btnUrl}
+                  to={btnU}
                   spy={true}
                   smooth={true}
                   offset={-80}
                   duration={500}
                   className="px-btn"
                 >
-                  <span>{btnText}</span>{' '}
+                  <span>Get in touch</span>
                   <i className="d-flex">
                     <Icon icon="bi:arrow-right" />
                   </i>
                 </ScrollLink>
+
                 <SocialBtns
                   socialBtns={socialData}
-                  variant="ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start"
+                  variant="d-flex align-items-center"
                 />
               </div>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="hs-banner">
-              <img src={imgUrl} title alt="Admin" />
+              <img
+                src={
+                  imgUrl
+                    ? `https://myportfolio-admin-lq7m.onrender.com${heroData.imgUrl}`
+                    : "/images/default-avatar.png"
+                }
+                alt="Thumb"
+              />
             </div>
           </div>
         </div>

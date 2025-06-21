@@ -27,3 +27,38 @@ Primary use:laralink
 @import 'scss/button';
 @import 'scss/base';
 @import 'scss/style';
+
+.fixed-typing-height {
+  min-height: 50px; /* Немесе нақты өлшем, мысалы 60px */
+  display: flex;
+  align-items: center;
+}
+
+.px-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  color: white;
+  text-decoration: none;
+}
+
+.px-btn span {
+  display: inline-block;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+
